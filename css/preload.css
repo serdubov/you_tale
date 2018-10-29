@@ -1,13 +1,10 @@
-body{
-    background-color: #ff7700;
-}
-
 #preload{
     width: 100%;
     height: 100vh;
     position: fixed;
     background-color: #4a4a4a;
-    /* overflow: hidden; */
+    overflow: hidden;
+    z-index: 999;
 }
 
 .load-logo{

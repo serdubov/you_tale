@@ -8,12 +8,12 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
     <link rel="icon" href=​img/favicon.ico type="image/x-icon" />
     <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon" />
-    <script src="script/jquery.js"></script>
-    <script src="script/preload.js"></script>
+    <script src="js/jquery.js"></script>
+    <script src="js/preload.js"></script>
     <link rel="stylesheet" href="css/preload.css" type="text/css">
-
+    <link rel="stylesheet" href="css/swiper.min.css">
     <link rel="stylesheet" href="css/style.css" type="text/css">
-    <link rel="stylesheet" href="css/list-style.css" type="text/css">
+    <!-- <link rel="stylesheet" href="css/list-style.css" type="text/css"> -->
     <title>webdev</title>
 </head>
 <body>
@@ -27,32 +27,43 @@
       Студия web-разработки YouTale
     </div>
   </div>
-  <!-- <div class="wrapper">
-    <div class="block_1 block position-block background-1 shad" id="block_1">
-      <span class="block_text text_1">О нас</span>
-    </div>
-    <div class="block_1 block" id="block_1_1">
-    </div>
-    <div class="block_2 block position-block background-2 shad" id="block_2">
-      <span class="block_text text_2">Дизайн</span>
-    </div>
-    <div class="block_2 block " id="block_2_2">
-    </div>
-    <div class="block_3 block position-block background-3 shad" id="block_3">
-      <span class="block_text text_3">Проекты</span>
-    </div>
-    <div class="block_3 block " id="block_3_3">
-    </div>
-    <div class="block_4 block position-block background-4 shad" id="block_4">
-      <span class="block_text text_4">Специфика</span>
-    </div>
-    <div class="block_4 block " id="block_4_4">
-    </div>
-    <div class="block_5 block position-block background-5 shad" id="block_5">
-      <span class="block_text text_5">Заявка</span>
-    </div>
-    <div class="block_5 block " id="block_5_5">
-    </div>
-  </div>     -->
+  <!-- Swiper -->
+  <div class="swiper-container">
+      <div class="swiper-wrapper">
+          <div class="swiper-slide">Slide 1</div>
+          <div class="swiper-slide">Slide 2</div>
+          <div class="swiper-slide">Slide 3</div>
+          <div class="swiper-slide">Slide 4</div>
+          <div class="swiper-slide">Slide 5</div>
+          <div class="swiper-slide">Slide 6</div>
+          <div class="swiper-slide">Slide 7</div>
+          <div class="swiper-slide">Slide 8</div>
+          <div class="swiper-slide">Slide 9</div>
+          <div class="swiper-slide">Slide 10</div>
+      </div>
+      <!-- Add Pagination -->
+      <div class="swiper-pagination"></div>
+  </div>
+
+
+  
+
+  <!-- Swiper JS -->
+  <script src="js/swiper.min.js"></script>
+
+  <!-- Initialize Swiper -->
+  <script>
+    console.log('run');
+    var swiper = new Swiper('.swiper-container', {
+        direction: 'vertical',
+        slidesPerView: 1,
+        spaceBetween: 0,
+        mousewheel: true,
+        pagination: {
+          el: '.swiper-pagination',
+          clickable: true,
+        },
+    });
+  </script>   
 </body>
 </html>
