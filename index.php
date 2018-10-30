@@ -10,15 +10,19 @@
     <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon" />
     <script src="js/jquery.js"></script>
     <script src="js/preload.js"></script>
+    <script src="js/fm.revealator.jquery.js"></script>
     <link rel="stylesheet" href="css/preload.css" type="text/css">
     <link rel="stylesheet" href="css/swiper.min.css">
     <link rel="stylesheet" href="css/style.css" type="text/css">
+    <link rel="stylesheet" href="css/fm.revealator.jquery.css" type="text/css">
+      <!-- <script src="js/jquery-1.11.3.min.js"></script> -->
+      
     <!-- <link rel="stylesheet" href="css/list-style.css" type="text/css"> -->
     <title>webdev</title>
 </head>
 <body>
 
-  <div id="preload">
+  <!-- <div id="preload">
     <div class="load-logo-around">
     </div>
     <div class="load-logo">
@@ -26,12 +30,20 @@
     <div class="text-logo">
       Студия web-разработки YouTale
     </div>
-  </div>
+  </div> -->
   <!-- Swiper -->
   <div class="swiper-container">
       <div class="swiper-wrapper">
-          <div class="swiper-slide">Slide 1</div>
-          <div class="swiper-slide">Slide 2</div>
+          <div class="swiper-slide">
+            <div class="revealator-slideup revealator-duration1 revealator-once">
+              <div class="block-b"></div>
+		        </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="revealator-slideup revealator-once revealator-delay20 revealator-within block-b">
+
+            </div>
+          </div>
           <div class="swiper-slide">Slide 3</div>
           <div class="swiper-slide">Slide 4</div>
           <div class="swiper-slide">Slide 5</div>
