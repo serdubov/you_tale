@@ -9,12 +9,12 @@
     <link rel="icon" href=​img/favicon.ico type="image/x-icon" />
     <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon" />
     <script src="js/jquery.js"></script>
+    <script src="js/menu.js"></script>
     <script src="js/preload.js"></script>
-    <script src="js/fm.revealator.jquery.js"></script>
     <link rel="stylesheet" href="css/preload.css" type="text/css">
     <link rel="stylesheet" href="css/swiper.min.css">
     <link rel="stylesheet" href="css/style.css" type="text/css">
-    <link rel="stylesheet" href="css/fm.revealator.jquery.css" type="text/css">
+    <link rel="stylesheet" href="css/menu.css" type="text/css">
       <!-- <script src="js/jquery-1.11.3.min.js"></script> -->
       
     <!-- <link rel="stylesheet" href="css/list-style.css" type="text/css"> -->
@@ -31,18 +31,51 @@
       Студия web-разработки YouTale
     </div>
   </div> -->
+
+
+  <div class="menu">
+    <div class="menu-list">
+      <div class="menu-row">
+        <div class="container-fluid">
+          <div class="row">
+            <div class="col-lg-6">
+
+            </div>
+            <div class="col-lg-6">
+              <div class="rectangl-menu">
+              </div>
+              <div class="menu-items-list">
+                <nav>
+                    <ul class="menu-items">
+                        <li class="menu-items-li">Главная</li>
+                        <li class="menu-items-li">О нас</li>
+                        <li class="menu-items-li">Проекты</li>
+                        <li class="menu-items-li">Партнеры</li>
+                        <li class="menu-items-li">Контакты</li>
+                    </ul>
+                </nav>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="menu-button" id="menu_button">
+      <div class="menu-button-line"></div>
+      <div class="menu-button-line"></div>
+      <div class="menu-button-line"></div>
+      <div class="menu-button-line"></div>
+  </div>
+
   <!-- Swiper -->
   <div class="swiper-container">
       <div class="swiper-wrapper">
-          <div class="swiper-slide">
-            <div class="revealator-slideup revealator-duration1 revealator-once">
-              <div class="block-b"></div>
-		        </div>
+          <div class="swiper-slide" id="slide1">
+            
           </div>
           <div class="swiper-slide">
-            <div class="revealator-slideup revealator-once revealator-delay20 revealator-within block-b">
-
-            </div>
+            
           </div>
           <div class="swiper-slide">Slide 3</div>
           <div class="swiper-slide">Slide 4</div>
@@ -79,3 +112,5 @@
   </script>   
 </body>
 </html>
+
+
