@@ -61,7 +61,7 @@
     overflow: hidden;
     top: 0;
     opacity: 0;
-    background-color: #4a4a4a;
+    background-color: #0f0f0fd0;
     transition: all .3s ease-in;
     z-index: 98;
 }

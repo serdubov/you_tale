@@ -22,7 +22,7 @@
 </head>
 <body>
 
-  <!-- <div id="preload">
+  <div id="preload">
     <div class="load-logo-around">
     </div>
     <div class="load-logo">
@@ -30,7 +30,7 @@
     <div class="text-logo">
       Студия web-разработки YouTale
     </div>
-  </div> -->
+  </div>
 
 
   <div class="menu">
@@ -72,7 +72,15 @@
   <div class="swiper-container">
       <div class="swiper-wrapper">
           <div class="swiper-slide" id="slide1">
-            
+                  <!-- <h1>Студия веб-разработки YouTale</h1> -->
+            <div id="video-bg">
+              <video width="100%" height="auto" preload="auto" autoplay="autoplay"
+              loop="loop" poster="video/Love-Coding.jpg">
+                  <source src="video/Love-Coding.mp4" type="video/mp4">
+                  <source src="video/Love-Coding.webm" type="video/webm">
+                  
+              </video>
+            </div>
           </div>
           <div class="swiper-slide">
             
